@@ -12,7 +12,7 @@ As of now, we're sadly stuck on GCC, but will gladly switch to LLVM/Clang if tha
 
 ##	2.	Getting the code ready to build.
 
-Since we want to build a ```musl + toybox / linux system```, we'll need the requisite packages and sources ready.
+Since we want to build for a ```musl + toybox / linux system```, we'll need the requisite packages and sources ready.
 
 - As OS/1337 and it's components are statically compiled against musl, more specifically the same [```musl-cross``` package used to make the reference binaries of toybox](http://landley.net/toybox/downloads/binaries/toolchains/latest/), one should've these ready and extracted into a ```./musl-cross-``` directory below the sourcecode root folder of each to-be-compiled software. [i.e. ```./demo.app/musl.cross-i486``` if you want to [build ```demo.app```](https://github.com/OS-1337/demo.app) for ```i486```].
 
